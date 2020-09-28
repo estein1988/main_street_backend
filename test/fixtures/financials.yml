@@ -1,0 +1,51 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  year: MyString
+  sales_revenue: 1
+  service_revenue: 1
+  advertising: 1
+  cogs: 1
+  employee_benefits: 1
+  equipment: 1
+  insurance: 1
+  maintenance: 1
+  office_supplies: 1
+  rent: 1
+  r_and_d: 1
+  salaries: 1
+  software: 1
+  travel: 1
+  utilities: 1
+  website: 1
+  other_expense: 1
+  interest: 1
+  taxes: 1
+  ammoritization: 1
+  depreciation: 1
+  business: one
+
+two:
+  year: MyString
+  sales_revenue: 1
+  service_revenue: 1
+  advertising: 1
+  cogs: 1
+  employee_benefits: 1
+  equipment: 1
+  insurance: 1
+  maintenance: 1
+  office_supplies: 1
+  rent: 1
+  r_and_d: 1
+  salaries: 1
+  software: 1
+  travel: 1
+  utilities: 1
+  website: 1
+  other_expense: 1
+  interest: 1
+  taxes: 1
+  ammoritization: 1
+  depreciation: 1
+  business: two
