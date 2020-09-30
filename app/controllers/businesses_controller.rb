@@ -1,10 +1,16 @@
 class BusinessesController < ApplicationController
   before_action :set_business, only: [:show, :update, :destroy]
 
+  skip_before_action :authenticate, only: [:create]
+      
   def index
     @businesses = Business.all
 
     render json: @businesses, include: :financials
+  end
+
+  def profile 
+      render json: @business, include: :financials
   end
 
   def show
@@ -36,7 +42,6 @@ class BusinessesController < ApplicationController
 
   private
 
-  # Use callbacks to share common setup or constraints between actions.
   def set_business
     @business = Business.find(params[:id])
   end
