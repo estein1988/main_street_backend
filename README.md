@@ -2,8 +2,8 @@
 
 An interactive tool to better manage your small business revenue, expenses and profit.
 
-## Backend Repo
-https://github.com/estein1988/main_street_backend
+## Frontend Repo
+https://github.com/estein1988/main_street_frontend
 
 ### Demo Video
 https://www.youtube.com/watch?v=bZAjlKbOnCk
