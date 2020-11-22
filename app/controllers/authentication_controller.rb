@@ -26,4 +26,3 @@ end
 #line 10 is bcrypt specific
 # secret = Rails.application.secrets.secret_key_base
 # financials: @business.financials
-
