@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2020_09_28_142416) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "businesses", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
@@ -53,7 +56,7 @@ ActiveRecord::Schema.define(version: 2020_09_28_142416) do
     t.integer "taxes"
     t.integer "ammoritization"
     t.integer "depreciation"
-    t.integer "business_id", null: false
+    t.bigint "business_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["business_id"], name: "index_financials_on_business_id"
